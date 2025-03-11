@@ -19,11 +19,11 @@ picture = [
 ]
 
 # print(picture[i][j])
-for i in picture:
-    for j in i:
-        if j == 0:
+for row in picture:
+    for pixel in row:
+        if pixel == 0:
             print(" ", end = '')
-        elif j == 1:
+        elif pixel == 1:
             print("*", end = '')
     print('')
         
